@@ -6,7 +6,7 @@ const showPreview = (src) => {
     preview.src = src;
 }
 
-const hidePreview = (src) => {
+export const hidePreview = (src) => {
     preview.style.display = '';
     preview.src = '';
 }
